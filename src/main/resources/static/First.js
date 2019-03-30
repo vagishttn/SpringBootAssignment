@@ -13,7 +13,7 @@ $(function () {
             url: '/current-time',
             method: 'get',
             success: function (response) {
-                stopLoader();
+                stopLoader()
                 console.log(response);
                 if (response.status === true) {
                     $('#currentTime').text(response.data)

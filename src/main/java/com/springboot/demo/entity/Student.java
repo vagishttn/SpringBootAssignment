@@ -3,7 +3,7 @@ package com.springboot.demo.entity;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity
+//@Entity
 public class Student {
 
   @Id private Integer rollNumber;
